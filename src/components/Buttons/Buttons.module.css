@@ -5,6 +5,9 @@
     padding-inline: 25px;
     padding-block: 8px;
     font-weight: 500;
+    display: inline-flex;
+    column-gap: 5px;
+    align-items: center;
 }
 .btn-blue {
     background: #0009ea;

@@ -5,7 +5,7 @@
 }
 
 .category {
-    background: var(--color-light-gray);
+    background: var(--color-white);
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
