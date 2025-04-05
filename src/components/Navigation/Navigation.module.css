@@ -1,0 +1,6 @@
+.nav{
+    @apply flex gap-[70px];
+}
+.navigation{
+    @apply grid grid-cols-3 items-center;
+}

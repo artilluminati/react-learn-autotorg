@@ -1,0 +1,20 @@
+.btn {
+    cursor: pointer;
+    /* border: 1px solid transparent; */
+    border-radius: 4px;
+    padding-inline: 25px;
+    padding-block: 8px;
+    font-weight: 500;
+}
+.btn-blue {
+    background: #0009ea;
+    color: #fff;
+}
+.btn-gray {
+    background: #232323;
+    color: #fff;
+}
+.btn-light-gray {
+    background: #d9d9d9;
+    color: #232323;
+}

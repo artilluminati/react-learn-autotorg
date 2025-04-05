@@ -1,0 +1,17 @@
+.categories {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.category {
+    background: var(--color-light-gray);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.active {
+    background: var(--color-primary-blue);
+    color: white;
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-primary-blue: #0009ea;
+    --color-secondary-blue: #020bea;
+
+    /* Серые оттенки */
+    --color-dark-gray: #232323;
+    --color-darker-gray: #181818;
+    --color-light-gray: #f5f5f5;
+    --color-medium-gray: #d9d9d9;
+    --color-very-light-gray: #e5e5e5; /* Возможно, опечатка */
+    --color-almost-white: #fdfdfe;
+
+    --font-sans: "Ubuntu", sans-serif;
+}
+
+body {
+    @apply text-dark-gray font-sans;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.nav__item.active {
+    color: blue;
+}

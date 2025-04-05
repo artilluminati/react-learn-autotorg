@@ -1,0 +1,4 @@
+.banner {
+    @apply flex justify-end items-end h-[100dvh] bg-center bg-cover px-[70px] py-[40px];
+    background-color: rgb(167, 220, 255);
+}
