@@ -3,6 +3,7 @@ import Categories from "./Categories/Categories";
 import CatalogGrid from "./CatalogGrid/CatalogGrid";
 import { useState } from "react";
 import { productsData } from "../../data/products";
+import BlueBtn from "../Buttons/BlueBtn/BlueBtn";
 
 const Catalog = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -14,7 +15,7 @@ const Catalog = () => {
 
     return (
         <div className={styles.catalog}>
-            <h2>Каталог товаров</h2>
+            <h2 className="font-medium text-[40px] mb-[40px]">Каталог товаров</h2>
             <Categories
                 categories={[
                     { id: "all", name: "Все товары" },
@@ -26,9 +27,9 @@ const Catalog = () => {
                 onSelectCategory={handleCategorySelect}
             />
             <CatalogGrid products={products} onAddToCart={() => {}} />
-            <button className="mt-4 bg-secondary-blue text-white px-4 py-2 rounded">
+            <BlueBtn className="mt-4 bg-secondary-blue text-white px-4 py-2 rounded">
                 Загрузить еще товары
-            </button>
+            </BlueBtn>
         </div>
     );
 };
